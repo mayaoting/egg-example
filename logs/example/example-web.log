@@ -1,0 +1,1376 @@
+2021-01-28 22:13:53,268 ERROR 3812 [-/::1/-/5ms GET /news-list] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:69:39)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 3812
+hostname: 192.168.0.104
+
+2021-01-28 22:15:12,561 ERROR 3812 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:69:39)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 3812
+hostname: 192.168.0.104
+
+2021-01-28 22:16:06,427 ERROR 3852 [-/::1/-/6ms GET /news-list] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:69:39)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 3852
+hostname: 192.168.0.104
+
+2021-01-28 22:16:07,399 ERROR 3852 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:69:39)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 3852
+hostname: 192.168.0.104
+
+2021-01-28 22:16:08,367 ERROR 3852 [-/::1/-/0ms GET /news-list] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:69:39)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 3852
+hostname: 192.168.0.104
+
+2021-01-28 22:17:32,205 ERROR 3886 [-/::1/-/7ms GET /news-list] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:69:39)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 3886
+hostname: 192.168.0.104
+
+2021-01-28 22:19:56,844 ERROR 3942 [-/::1/-/6ms GET /news-list] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:69:39)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 3942
+hostname: 192.168.0.104
+
+2021-01-28 22:19:58,106 ERROR 3942 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:69:39)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 3942
+hostname: 192.168.0.104
+
+2021-01-28 22:20:29,891 ERROR 3962 [-/::1/-/6ms GET /news-list] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:69:39)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 3962
+hostname: 192.168.0.104
+
+2021-01-28 22:20:30,882 ERROR 3962 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:69:39)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 3962
+hostname: 192.168.0.104
+
+2021-01-28 22:22:42,743 ERROR 4001 [-/::1/-/6ms GET /news-list] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:69:39)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 4001
+hostname: 192.168.0.104
+
+2021-01-28 22:22:43,945 ERROR 4001 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:69:39)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 4001
+hostname: 192.168.0.104
+
+2021-01-28 22:22:44,902 ERROR 4001 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:69:39)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 4001
+hostname: 192.168.0.104
+
+2021-01-28 22:26:04,058 ERROR 4065 [-/::1/-/6ms GET /news-list] nodejs.AssertionError: Can't find news from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 4065
+hostname: 192.168.0.104
+
+2021-01-28 22:26:32,836 ERROR 4085 [-/::1/-/5ms GET /news-list] nodejs.AssertionError: Can't find viewEngine for /Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:66:5)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 4085
+hostname: 192.168.0.104
+
+2021-01-28 22:26:33,651 ERROR 4085 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find viewEngine for /Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:66:5)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 4085
+hostname: 192.168.0.104
+
+2021-01-28 22:26:34,376 ERROR 4085 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find viewEngine for /Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:66:5)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 4085
+hostname: 192.168.0.104
+
+2021-01-28 22:26:35,254 ERROR 4085 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find viewEngine for /Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:66:5)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 4085
+hostname: 192.168.0.104
+
+2021-01-28 22:29:34,852 ERROR 4135 [-/::1/-/6ms GET /news-list] nodejs.AssertionError: Can't find viewEngine for /Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:66:5)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 4135
+hostname: 192.168.0.104
+
+2021-01-28 22:29:35,800 ERROR 4135 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find viewEngine for /Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:66:5)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 4135
+hostname: 192.168.0.104
+
+2021-01-28 22:30:58,246 ERROR 4161 [-/::1/-/5ms GET /news-list] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 4161
+hostname: 192.168.0.104
+
+2021-01-28 22:30:59,174 ERROR 4161 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 4161
+hostname: 192.168.0.104
+
+2021-01-28 22:30:59,763 ERROR 4161 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 4161
+hostname: 192.168.0.104
+
+2021-01-28 22:30:59,962 ERROR 4161 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 4161
+hostname: 192.168.0.104
+
+2021-01-28 22:31:00,130 ERROR 4161 [-/::1/-/0ms GET /news-list] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 4161
+hostname: 192.168.0.104
+
+2021-01-28 22:31:00,266 ERROR 4161 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 4161
+hostname: 192.168.0.104
+
+2021-01-28 22:31:00,418 ERROR 4161 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 4161
+hostname: 192.168.0.104
+
+2021-01-28 22:31:00,560 ERROR 4161 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 4161
+hostname: 192.168.0.104
+
+2021-01-28 22:31:00,687 ERROR 4161 [-/::1/-/0ms GET /news-list] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 4161
+hostname: 192.168.0.104
+
+2021-01-28 22:31:00,990 ERROR 4161 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 4161
+hostname: 192.168.0.104
+
+2021-01-28 22:33:04,756 ERROR 4212 [-/::1/-/6ms GET /news-list] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:69:39)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 4212
+hostname: 192.168.0.104
+
+2021-01-28 22:33:05,798 ERROR 4212 [-/::1/-/1ms GET /news-list] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:69:39)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:28:8)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 4212
+hostname: 192.168.0.104
+
+2021-01-28 22:37:13,919 ERROR 4253 [-/::1/-/2ms GET /news-list] nodejs.ReferenceError: /Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs:14
+    12| </html> -->
+    13| 
+ >> 14| hello <%= messae %>
+
+messae is not defined
+    12| </html> -->
+    13| 
+ >> 14| hello <%= messae %>
+
+messae is not defined
+    at eval (/Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs:13:26)
+    at news (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:70:23)
+    at async NewsController.newslist (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:30:8)
+path: "/Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs"
+pid: 4253
+hostname: 192.168.0.104
+
+2021-01-28 22:39:30,798 ERROR 4253 [-/::1/-/1ms GET /news-list] nodejs.Error: Could not find matching close tag for "<%=".
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:736:19
+    at Array.forEach (<anonymous>)
+    at Template.generateSource (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:721:15)
+    at Template.compile (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:574:12)
+    at Object.compile (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+
+pid: 4253
+hostname: 192.168.0.104
+
+2021-01-29 23:03:14,750 ERROR 1730 [-/::1/-/8ms GET /] nodejs.ReferenceError: /Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs:11
+    9| <body>
+    10|     <h1>this new list page </h1>
+ >> 11|     <h2><%=message%></h2>
+    12|     <ul>
+    13|         <%for(var i=0;i<list.length;i++){%>
+    14|             <li><%=list[i]%></li>    
+
+message is not defined
+    9| <body>
+    10|     <h1>this new list page </h1>
+ >> 11|     <h2><%=message%></h2>
+    12|     <ul>
+    13|         <%for(var i=0;i<list.length;i++){%>
+    14|             <li><%=list[i]%></li>    
+
+message is not defined
+    at eval (/Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs:10:25)
+    at news (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:70:23)
+    at async HomeController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/home.js:25:5)
+path: "/Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs"
+pid: 1730
+hostname: 192.168.0.104
+
+2021-01-30 17:30:59,051 ERROR 1055 [-/::1/-/6ms GET /] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async HomeController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/home.js:27:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 1055
+hostname: 192.168.0.104
+
+2021-01-30 17:31:15,245 ERROR 1055 [-/::1/-/1ms GET /] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async HomeController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/home.js:27:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 1055
+hostname: 192.168.0.104
+
+2021-01-30 17:31:16,047 ERROR 1055 [-/::1/-/2ms GET /] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async HomeController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/home.js:27:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 1055
+hostname: 192.168.0.104
+
+2021-01-30 17:31:16,669 ERROR 1055 [-/::1/-/1ms GET /] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async HomeController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/home.js:27:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 1055
+hostname: 192.168.0.104
+
+2021-01-30 17:31:28,058 ERROR 1055 [-/::1/-/1ms GET /] nodejs.AssertionError: Can't find viewEngine for /Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:66:5)
+    at async HomeController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/home.js:27:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 1055
+hostname: 192.168.0.104
+
+2021-01-30 17:31:28,884 ERROR 1055 [-/::1/-/1ms GET /] nodejs.AssertionError: Can't find viewEngine for /Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:66:5)
+    at async HomeController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/home.js:27:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 1055
+hostname: 192.168.0.104
+
+2021-01-30 17:56:54,738 ERROR 1521 [-/::1/-/133ms GET /news] nodejs.AssertionError: Can't find news from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:10:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 1521
+hostname: 192.168.0.104
+
+2021-01-30 17:57:16,506 ERROR 1533 [-/::1/-/138ms GET /news] nodejs.ReferenceError: /Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs:11
+    9| <body>
+    10|     <h1>this new list page </h1>
+ >> 11|     <h2><%=message%></h2>
+    12|     <ul>
+    13|         <%for(var i=0;i<list.length;i++){%>
+    14|             <li><%=list[i]%></li>    
+
+message is not defined
+    9| <body>
+    10|     <h1>this new list page </h1>
+ >> 11|     <h2><%=message%></h2>
+    12|     <ul>
+    13|         <%for(var i=0;i<list.length;i++){%>
+    14|             <li><%=list[i]%></li>    
+
+message is not defined
+    at eval (/Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs:10:25)
+    at news (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:70:23)
+    at async NewsController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:10:5)
+path: "/Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs"
+pid: 1533
+hostname: 192.168.0.104
+
+2021-01-30 17:57:31,689 ERROR 1536 [-/::1/-/132ms GET /news] nodejs.ReferenceError: /Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs:11
+    9| <body>
+    10|     <h1>this new list page </h1>
+ >> 11|     <h2><%=message%></h2>
+    12|     <ul>
+    13|         <%for(var i=0;i<list.length;i++){%>
+    14|             <li><%=list[i]%></li>    
+
+message is not defined
+    9| <body>
+    10|     <h1>this new list page </h1>
+ >> 11|     <h2><%=message%></h2>
+    12|     <ul>
+    13|         <%for(var i=0;i<list.length;i++){%>
+    14|             <li><%=list[i]%></li>    
+
+message is not defined
+    at eval (/Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs:10:25)
+    at news (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:70:23)
+    at async NewsController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:10:5)
+path: "/Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs"
+pid: 1536
+hostname: 192.168.0.104
+
+2021-01-30 17:57:34,128 ERROR 1536 [-/::1/-/87ms GET /news] nodejs.ReferenceError: /Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs:11
+    9| <body>
+    10|     <h1>this new list page </h1>
+ >> 11|     <h2><%=message%></h2>
+    12|     <ul>
+    13|         <%for(var i=0;i<list.length;i++){%>
+    14|             <li><%=list[i]%></li>    
+
+message is not defined
+    9| <body>
+    10|     <h1>this new list page </h1>
+ >> 11|     <h2><%=message%></h2>
+    12|     <ul>
+    13|         <%for(var i=0;i<list.length;i++){%>
+    14|             <li><%=list[i]%></li>    
+
+message is not defined
+    at eval (/Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs:10:25)
+    at news (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:70:23)
+    at async NewsController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:10:5)
+path: "/Users/mac/Desktop/myt/egg/egg-example/app/view/news.ejs"
+pid: 1536
+hostname: 192.168.0.104
+
+2021-01-30 18:20:06,549 ERROR 1923 [-/::1/-/128ms GET /newscontent?aid=507] nodejs.ReferenceError: /Users/mac/Desktop/myt/egg/egg-example/app/view/newscontent.ejs:9
+    7| </head>
+    8| <body>
+ >> 9|     <h2><%=list.title%></h2>
+    10|     <div>
+    11|         <%=list.content%>
+    12|     </div>
+
+list is not defined
+    7| </head>
+    8| <body>
+ >> 9|     <h2><%=list.title%></h2>
+    10|     <div>
+    11|         <%=list.content%>
+    12|     </div>
+
+list is not defined
+    at eval (/Users/mac/Desktop/myt/egg/egg-example/app/view/newscontent.ejs:10:25)
+    at newscontent (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:70:23)
+    at async NewsController.content (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:25:5)
+path: "/Users/mac/Desktop/myt/egg/egg-example/app/view/newscontent.ejs"
+pid: 1923
+hostname: 192.168.0.104
+
+2021-01-30 18:22:00,391 ERROR 1961 [-/::1/-/4ms GET /newscontent?aid=507] nodejs.TypeError: /Users/mac/Desktop/myt/egg/egg-example/app/view/newscontent.ejs:9
+    7| </head>
+    8| <body>
+ >> 9|     <h2><%=list.title%></h2>
+    10|     <div>
+    11|         <%=list.content%>
+    12|     </div>
+
+Cannot read property 'title' of undefined
+    7| </head>
+    8| <body>
+ >> 9|     <h2><%=list.title%></h2>
+    10|     <div>
+    11|         <%=list.content%>
+    12|     </div>
+
+Cannot read property 'title' of undefined
+    at eval (/Users/mac/Desktop/myt/egg/egg-example/app/view/newscontent.ejs:10:30)
+    at newscontent (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:70:23)
+    at async NewsController.content (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:25:5)
+path: "/Users/mac/Desktop/myt/egg/egg-example/app/view/newscontent.ejs"
+pid: 1961
+hostname: 192.168.0.104
+
+2021-01-30 18:24:33,119 ERROR 1996 [-/::1/-/15ms GET /newscontent?aid=507] nodejs.TypeError: Cannot read property '0' of undefined
+    at NewsController.content (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:25:55)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 1996
+hostname: 192.168.0.104
+
+2021-01-30 18:24:37,561 ERROR 1996 [-/::1/-/1ms GET /newscontent?aid=506] nodejs.TypeError: Cannot read property '0' of undefined
+    at NewsController.content (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:25:55)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 1996
+hostname: 192.168.0.104
+
+2021-01-30 18:27:20,978 ERROR 2040 [-/::1/-/2ms GET /newscontent?aid=507] nodejs.TypeError: Cannot read property '0' of undefined
+    at NewsController.content (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:26:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 2040
+hostname: 192.168.0.104
+
+2021-01-30 18:27:44,035 ERROR 2052 [-/::1/-/4ms GET /newscontent?aid=507] nodejs.TypeError: Cannot read property '0' of undefined
+    at NewsController.content (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:24:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 2052
+hostname: 192.168.0.104
+
+2021-01-30 18:28:33,669 ERROR 2076 [-/::1/-/2ms GET /newscontent?aid=507] nodejs.TypeError: Cannot read property '0' of undefined
+    at NewsController.content (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:24:27)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 2076
+hostname: 192.168.0.104
+
+2021-01-30 18:29:18,110 ERROR 2084 [-/::1/-/3ms GET /newscontent?aid=507] nodejs.ReferenceError: list is not defined
+    at NewsController.content (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:27:6)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 2084
+hostname: 192.168.0.104
+
+2021-01-30 18:29:31,135 ERROR 2098 [-/::1/-/4ms GET /newscontent?aid=507] nodejs.TypeError: /Users/mac/Desktop/myt/egg/egg-example/app/view/newscontent.ejs:9
+    7| </head>
+    8| <body>
+ >> 9|     <h2><%=list.title%></h2>
+    10|     <div>
+    11|         <%=list.content%>
+    12|     </div>
+
+Cannot read property 'title' of undefined
+    7| </head>
+    8| <body>
+ >> 9|     <h2><%=list.title%></h2>
+    10|     <div>
+    11|         <%=list.content%>
+    12|     </div>
+
+Cannot read property 'title' of undefined
+    at eval (/Users/mac/Desktop/myt/egg/egg-example/app/view/newscontent.ejs:10:30)
+    at newscontent (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/mac/Desktop/myt/egg/egg-example/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:70:23)
+    at async NewsController.content (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:26:5)
+path: "/Users/mac/Desktop/myt/egg/egg-example/app/view/newscontent.ejs"
+pid: 2098
+hostname: 192.168.0.104
+
+2021-01-30 18:33:55,368 ERROR 2204 [-/::1/-/136ms GET /news] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:10:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 2204
+hostname: 192.168.0.104
+
+2021-01-30 18:35:15,054 ERROR 2217 [-/::1/-/131ms GET /news] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:10:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 2217
+hostname: 192.168.0.104
+
+2021-01-30 18:36:17,079 ERROR 2217 [-/::1/-/118ms GET /news] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:10:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 2217
+hostname: 192.168.0.104
+
+2021-01-30 18:39:13,655 ERROR 2315 [-/::1/-/132ms GET /news] nodejs.AssertionError: Can't find news.ejs from /Users/mac/Desktop/myt/egg/egg-example/app/view
+    at Map.resolve (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:10:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 2315
+hostname: 192.168.0.104
+
+2021-01-30 18:39:39,264 ERROR 2326 [-/::1/-/132ms GET /news] nodejs.Template render error: (/Users/mac/Desktop/myt/egg/egg-example/app/view/news.html) [Line 13, Column 43]
+  tag name expected
+  tag name expected
+    at Object._prettifyError (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:536:21)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:364:27
+    at createTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:313:9)
+    at handle (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:325:11)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:337:9
+    at next (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:326:7)
+    at Object.asyncIter (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:319:9)
+    at NunjucksEnvironment.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:358:10)
+name: "Template render error"
+pid: 2326
+hostname: 192.168.0.104
+
+2021-01-30 18:40:12,380 ERROR 2326 [-/::1/-/123ms GET /news] nodejs.Template render error: (/Users/mac/Desktop/myt/egg/egg-example/app/view/news.html) [Line 13, Column 48]
+  tag name expected
+  tag name expected
+    at Object._prettifyError (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:536:21)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:364:27
+    at createTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:313:9)
+    at handle (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:325:11)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:337:9
+    at next (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:326:7)
+    at Object.asyncIter (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:319:9)
+    at NunjucksEnvironment.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:358:10)
+name: "Template render error"
+pid: 2326
+hostname: 192.168.0.104
+
+2021-01-30 18:40:23,529 ERROR 2326 [-/::1/-/121ms GET /news] nodejs.Template render error: (/Users/mac/Desktop/myt/egg/egg-example/app/view/news.html) [Line 13, Column 43]
+  tag name expected
+  tag name expected
+    at Object._prettifyError (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:536:21)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:364:27
+    at createTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:313:9)
+    at handle (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:325:11)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:337:9
+    at next (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:326:7)
+    at Object.asyncIter (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:319:9)
+    at NunjucksEnvironment.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:358:10)
+name: "Template render error"
+pid: 2326
+hostname: 192.168.0.104
+
+2021-01-30 18:40:33,707 ERROR 2326 [-/::1/-/123ms GET /news] nodejs.Template render error: (/Users/mac/Desktop/myt/egg/egg-example/app/view/news.html) [Line 13, Column 48]
+  tag name expected
+  tag name expected
+    at Object._prettifyError (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:536:21)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:364:27
+    at createTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:313:9)
+    at handle (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:325:11)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:337:9
+    at next (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:326:7)
+    at Object.asyncIter (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:319:9)
+    at NunjucksEnvironment.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:358:10)
+name: "Template render error"
+pid: 2326
+hostname: 192.168.0.104
+
+2021-01-30 18:41:25,070 ERROR 2326 [-/::1/-/128ms GET /news] nodejs.Template render error: (/Users/mac/Desktop/myt/egg/egg-example/app/view/news.html) [Line 13, Column 43]
+  tag name expected
+  tag name expected
+    at Object._prettifyError (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:536:21)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:364:27
+    at createTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:313:9)
+    at handle (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:325:11)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:337:9
+    at next (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:326:7)
+    at Object.asyncIter (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:319:9)
+    at NunjucksEnvironment.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:358:10)
+name: "Template render error"
+pid: 2326
+hostname: 192.168.0.104
+
+2021-01-30 18:41:35,797 ERROR 2326 [-/::1/-/110ms GET /news] nodejs.Template render error: (/Users/mac/Desktop/myt/egg/egg-example/app/view/news.html) [Line 13, Column 43]
+  tag name expected
+  tag name expected
+    at Object._prettifyError (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:536:21)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:364:27
+    at createTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:313:9)
+    at handle (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:325:11)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:337:9
+    at next (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:326:7)
+    at Object.asyncIter (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:319:9)
+    at NunjucksEnvironment.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:358:10)
+name: "Template render error"
+pid: 2326
+hostname: 192.168.0.104
+
+2021-01-30 18:41:43,705 ERROR 2326 [-/::1/-/114ms GET /news] nodejs.Template render error: (/Users/mac/Desktop/myt/egg/egg-example/app/view/news.html) [Line 13, Column 43]
+  tag name expected
+  tag name expected
+    at Object._prettifyError (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:536:21)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:364:27
+    at createTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:313:9)
+    at handle (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:325:11)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:337:9
+    at next (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:326:7)
+    at Object.asyncIter (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:319:9)
+    at NunjucksEnvironment.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:358:10)
+name: "Template render error"
+pid: 2326
+hostname: 192.168.0.104
+
+2021-01-30 18:48:28,819 ERROR 2326 [-/::1/-/184ms GET /newscontent?aid=505] nodejs.Template render error: (/Users/mac/Desktop/myt/egg/egg-example/app/view/newscontent.html) [Line 9, Column 11]
+  unexpected token: <
+  unexpected token: <
+    at Object._prettifyError (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:536:21)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:364:27
+    at createTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:313:9)
+    at handle (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:325:11)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:337:9
+    at next (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:326:7)
+    at Object.asyncIter (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:319:9)
+    at NunjucksEnvironment.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:358:10)
+name: "Template render error"
+pid: 2326
+hostname: 192.168.0.104
+
+2021-01-30 18:48:38,993 ERROR 2326 [-/::1/-/159ms GET /newscontent?aid=505] nodejs.Template render error: (/Users/mac/Desktop/myt/egg/egg-example/app/view/newscontent.html) [Line 9, Column 11]
+  unexpected token: <
+  unexpected token: <
+    at Object._prettifyError (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:536:21)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:364:27
+    at createTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:313:9)
+    at handle (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:325:11)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:337:9
+    at next (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:326:7)
+    at Object.asyncIter (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:319:9)
+    at NunjucksEnvironment.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:358:10)
+name: "Template render error"
+pid: 2326
+hostname: 192.168.0.104
+
+2021-01-30 18:48:40,412 ERROR 2326 [-/::1/-/146ms GET /newscontent?aid=505] nodejs.Template render error: (/Users/mac/Desktop/myt/egg/egg-example/app/view/newscontent.html) [Line 9, Column 11]
+  unexpected token: <
+  unexpected token: <
+    at Object._prettifyError (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:536:21)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:364:27
+    at createTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:313:9)
+    at handle (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:325:11)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:337:9
+    at next (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:326:7)
+    at Object.asyncIter (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:319:9)
+    at NunjucksEnvironment.render (/Users/mac/Desktop/myt/egg/egg-example/node_modules/nunjucks/src/environment.js:358:10)
+name: "Template render error"
+pid: 2326
+hostname: 192.168.0.104
+
+2021-01-31 17:03:15,910 ERROR 3885 [-/::1/-/177ms GET /newscontent?aid=507] nodejs.TypeError: list[0].content.length is not a function
+    at NewsController.content (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:26:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-static-cache/index.js:41:56
+
+pid: 3885
+hostname: 192.168.0.104
+
+2021-01-31 17:15:37,707 ERROR 3918 [-/::1/-/183ms GET /newscontent?aid=507] nodejs.TypeError: list[0].content.length is not a function
+    at NewsController.content (/Users/mac/Desktop/myt/egg/egg-example/app/controller/news.js:26:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-static-cache/index.js:41:56
+
+pid: 3918
+hostname: 192.168.0.104
+
+2021-02-01 22:42:06,004 ERROR 1352 [-/::1/-/7ms GET /] nodejs.TypeError: this.ctx.request.foo is not a function
+    at HomeController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/home.js:26:22)
+    at Object.callFn (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/Desktop/myt/egg/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mac/Desktop/myt/egg/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 1352
+hostname: 192.168.0.104
+
+2021-02-01 22:43:08,026 ERROR 1374 [-/::1/-/8ms GET /] nodejs.TypeError: Cannot read property 'toLowerCase' of undefined
+    at Object.get (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa/lib/request.js:679:27)
+    at HomeController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/home.js:26:22)
+    at Object.callFn (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/Desktop/myt/egg/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mac/Desktop/myt/egg/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 1374
+hostname: 192.168.0.104
+
+2021-02-01 22:43:53,548 ERROR 1393 [-/::1/-/8ms GET /] nodejs.TypeError: this.ctx.request.getter is not a function
+    at HomeController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/home.js:26:22)
+    at Object.callFn (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/Desktop/myt/egg/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mac/Desktop/myt/egg/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 1393
+hostname: 192.168.0.104
+
+2021-02-01 22:44:17,246 ERROR 1398 [-/::1/-/7ms GET /] nodejs.TypeError: Cannot read property 'toLowerCase' of undefined
+    at Object.get (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa/lib/request.js:679:27)
+    at Object.foo (/Users/mac/Desktop/myt/egg/egg-example/app/extend/request.js:3:21)
+    at HomeController.index (/Users/mac/Desktop/myt/egg/egg-example/app/controller/home.js:26:22)
+    at Object.callFn (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/Desktop/myt/egg/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mac/Desktop/myt/egg/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/Desktop/myt/egg/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/Desktop/myt/egg/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 1398
+hostname: 192.168.0.104
+

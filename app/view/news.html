@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/news.css">
+</head>
+<body>
+    <h1>this new list page </h1>
+    <h2>{{message}}</h2>
+    <ul>
+        {% for item in list %}
+            <a target="new" href="/newscontent?aid={{item.aid}}"><li>{{item.title}}</li></a>
+            <span>---- {{helper.formatTime(item.dateline)}}</span>  
+        {% endfor %}
+    </ul>
+    <img src="/public/images/1.jpeg" alt="">
+</body>
+</html>
