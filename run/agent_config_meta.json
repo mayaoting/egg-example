@@ -1,6 +1,12 @@
 {
   "keys": "/Users/mac/Desktop/myt/egg/egg-example/config/config.default.js",
   "middleware": "/Users/mac/Desktop/myt/egg/egg-example/config/config.default.js",
+  "printdate": {
+    "aaa": "/Users/mac/Desktop/myt/egg/egg-example/config/config.default.js"
+  },
+  "forbidip": {
+    "forbidips": "/Users/mac/Desktop/myt/egg/egg-example/config/config.default.js"
+  },
   "view": {
     "defaultViewEngine": "/Users/mac/Desktop/myt/egg/egg-example/config/config.default.js",
     "mapping": {

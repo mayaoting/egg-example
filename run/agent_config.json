@@ -314,7 +314,19 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "middleware": [],
+    "middleware": [
+      "printdate",
+      "forbidip"
+    ],
+    "printdate": {
+      "aaa": "aaaa"
+    },
+    "forbidip": {
+      "forbidips": [
+        "127.0.0.1",
+        "192.168.0.104"
+      ]
+    },
     "api": "http://www.phonegap100.com",
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",

@@ -4,10 +4,15 @@ const Controller = require('egg').Controller;
 
 class NewsController extends Controller {
   async index() {
-
+    // 获取解密后的 cookie 需要添加第三个参数
+    var cookievalue = this.ctx.cookies.get('username',{
+      signed:true,
+      encrypt:true,
+    })
+    var userSession = this.ctx.session.userSession
     const list = await this.service.news.getNewsList()
     var message = 'news list'
-    await this.ctx.render('news.html',{message,list})
+    await this.ctx.render('news.html',{message,list,cookievalue,userSession})
     // this.ctx.body = 'news message'
   }
   async content() {

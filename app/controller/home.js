@@ -15,6 +15,18 @@ const Controller = require('egg').Controller;
  * middleware 路由加载前后的处理
  */
 
+
+ /**
+  * cookie  可以做到在同一个域内在不同的页面的数据共享，
+  * 实现数据的持久化，
+  * 
+  * ctx.cookie 
+  */
+
+/**
+ * session  在cookie的基础上封装的 session 主要用来做 用户身份识别
+ */
+
 class HomeController extends Controller {
   async index() {
 
@@ -24,6 +36,15 @@ class HomeController extends Controller {
 
     console.log('----------')
     this.ctx.request.foo();
+
+    // 设置加密的cookie 需要第三个参数 
+    this.ctx.cookies.set('username','maqiqi', {
+      maxAge: 1000*3600*14,
+      signed:true,
+      encrypt:true
+    })
+
+    this.ctx.session.userId = 'this is a user id'
   }
 }
 

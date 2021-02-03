@@ -7,6 +7,14 @@
   "forbidip": {
     "forbidips": "/Users/mac/Desktop/myt/egg/egg-example/config/config.default.js"
   },
+  "session": {
+    "key": "/Users/mac/Desktop/myt/egg/egg-example/config/config.default.js",
+    "maxAge": "/Users/mac/Desktop/myt/egg/egg-example/config/config.default.js",
+    "httpOnly": "/Users/mac/Desktop/myt/egg/egg-example/config/config.default.js",
+    "enctry": "/Users/mac/Desktop/myt/egg/egg-example/config/config.default.js",
+    "renew": "/Users/mac/Desktop/myt/egg/egg-example/config/config.default.js",
+    "encrypt": "/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-session/config/config.default.js"
+  },
   "view": {
     "defaultViewEngine": "/Users/mac/Desktop/myt/egg/egg-example/config/config.default.js",
     "mapping": {
@@ -17,12 +25,6 @@
     "defaultExtension": "/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-view/config/config.default.js"
   },
   "api": "/Users/mac/Desktop/myt/egg/egg-example/config/config.default.js",
-  "session": {
-    "maxAge": "/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-session/config/config.default.js"
-  },
   "security": {
     "domainWhiteList": "/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/config/config.default.js",
     "protocolWhiteList": "/Users/mac/Desktop/myt/egg/egg-example/node_modules/egg-security/config/config.default.js",

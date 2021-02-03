@@ -31,6 +31,14 @@ module.exports = appInfo => {
     ]
   }
 
+  config.session = {
+    key:'SESSION_ID',
+    maxAge: 5000,
+    httpOnly: true,
+    enctry:true,
+    renew:true
+
+  }
   config.view = {
     defaultViewEngine:'nunjucks',
     mapping: {
